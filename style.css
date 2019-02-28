@@ -265,6 +265,17 @@ section#suporte .row {
   text-align: left;
 }
 
+section#suporte .btn.btn-suporte {
+  position: absolute;
+  top: 25%;
+  right: 0%;
+  border: 2px solid #fff;
+}
+
+section#suporte .btn.btn-suporte:hover {
+  border: 2px solid #231f20;
+}
+
 section#faq .btn {
   margin: 0;
   border-radius: 0;
@@ -285,14 +296,13 @@ section#faq .btn i {
   margin-top: 1rem;
 }
 
-
 section#faq .btn.collapsed .fa-chevron-down,
 section#faq .btn:not(.collapsed) .fa-chevron-up {
   display: block;
 }
 
 section#faq .btn.collapsed .fa-chevron-up,
-section#faq .btn:not(.collapsed) .fa-chevron-down{
+section#faq .btn:not(.collapsed) .fa-chevron-down {
   display: none;
 }
 
@@ -313,6 +323,10 @@ hr {
 @media (max-width: 768px) {
   section h2 {
     text-align: center;
+  }
+  section#suporte .btn.btn-suporte {
+    position: relative;
+    margin: 5% auto;
   }
 }
 
@@ -347,8 +361,8 @@ footer span {
     width: 15%;
     padding-top: 3%;
   }
-  footer span{
-   font-size: 0.7rem;
-   margin-top: 4%;
+  footer span {
+    font-size: 0.7rem;
+    margin-top: 4%;
   }
 }
