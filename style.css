@@ -29,6 +29,15 @@ h3 {
   color: #666666;
 }
 
+span#documentation,
+span#tools,
+span#support,
+span#faqI {
+  margin-top: 5%;
+  padding-bottom: 5%;
+  display: block;
+}
+
 @media (max-width: 768px) {
   html,
   body {
